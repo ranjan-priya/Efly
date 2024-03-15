@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.logoname {
+  width: 120px;
+  cursor: pointer;
+  padding-left: 700px;
+
+
+}
+
+.image {
+  width: 100%;
+  height: 100vh;
+  background-image: url(img.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 450px;
+  text-align: center;
+  background-color: #30302e;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  text-align: center;
+
+}
+.logoname{
+  margin-top: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  text-transform: capitalize;
+
+
+}
+
+.input-group {
+  display: flex;
+  margin: 20px 0;
+  justify-content: space-evenly;
+}
+
+.toggle {
+  cursor: pointer;
+  align-items: start;
+}
+
+.formcontrol{
+  width: 50%;
+}
+.dropdown-btn{
+  width: 10%;
+  cursor: pointer;
+  color: white;
+  background-color: #30302e;
+  
+}
+
+
+.flag{
+  width: 10%;
+  color: #30302e;
+  background-color:white
+}
+.login-menu{
+  display: flex;
+  text-align: right;
+  color: white;
+  align-items: center;
+  justify-content:space-between;
+  cursor: pointer;
+}
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 100px 0;
+  align-self: center;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
